@@ -40,6 +40,7 @@
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(298, 436);
             this.checkedListBox1.TabIndex = 1;
+            this.checkedListBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.checkedListBox1_MouseClick);
             // 
             // AddButton
             // 
@@ -63,7 +64,7 @@
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.checkedListBox1);
             this.Name = "ToDoList";
-            this.Text = "Form1";
+            this.Text = "ToDo";
             this.Load += new System.EventHandler(this.ToDoList_Load_1);
             this.ResumeLayout(false);
 

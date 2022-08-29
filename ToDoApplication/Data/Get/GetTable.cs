@@ -18,11 +18,5 @@ namespace ToDoApplication.Data.Get
 
             return table;
         }
-
-        public static int getRowsToDo()
-        {
-
-            return 0;
-        }
     }
 }
